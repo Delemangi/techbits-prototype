@@ -69,6 +69,7 @@ function Product({
       return;
     }
 
+    setStatus("Added to cart!");
     addItemToCart(p);
   }
 
@@ -107,7 +108,6 @@ function Product({
             type="button"
             onClick={() => {
               addToCart(product);
-              setStatus("Added to cart!");
             }}
           >
             Add to Cart
