@@ -88,6 +88,11 @@ function Account({
               Cart ({cart?.length ?? 0})
             </button>
           </Link>
+          <Link className="text-decoration-none" to="/new">
+            <button type="button" className="btn btn-secondary ms-2">
+              Add Product
+            </button>
+          </Link>
           <button
             type="button"
             className="btn btn-secondary ms-2"

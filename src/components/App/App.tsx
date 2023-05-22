@@ -7,6 +7,7 @@ import { Cart } from "../Cart/Cart";
 import { Login } from "../Login/Login";
 import { Register } from "../Register/Register";
 import { Checkout } from "../Checkout/Checkout";
+import { Add } from "../Add/Add";
 
 function App() {
   const { state } = useLocation();
@@ -92,6 +93,7 @@ function App() {
               }
             />
             <Route path="/checkout" element={<Checkout setCart={setCart} />} />
+            <Route path="/new" element={<Add user={user} />} />
           </Routes>
         </div>
       </Suspense>
