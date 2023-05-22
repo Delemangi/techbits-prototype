@@ -1,14 +1,14 @@
 import { Suspense, useState } from "react";
 import { Route, Routes, useLocation } from "react-router-dom";
+import { Add } from "../Add/Add";
+import { Cart } from "../Cart/Cart";
+import { Checkout } from "../Checkout/Checkout";
 import { Header } from "../Header/Header";
 import { Home } from "../Home/Home";
-import "./App.css";
-import { Cart } from "../Cart/Cart";
 import { Login } from "../Login/Login";
-import { Register } from "../Register/Register";
-import { Checkout } from "../Checkout/Checkout";
-import { Add } from "../Add/Add";
 import { Products } from "../Products/Products";
+import { Register } from "../Register/Register";
+import "./App.css";
 
 function App() {
   const { state } = useLocation();
