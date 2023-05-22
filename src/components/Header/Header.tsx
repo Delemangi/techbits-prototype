@@ -26,6 +26,9 @@ export function Header({
           <Link to="/" className="text-decoration-none">
             <span className="navbar-brand">TechBits</span>
           </Link>
+          <Link to="/products" className="text-decoration-none text-white">
+            Products
+          </Link>
           <Categories />
         </div>
         <div className="d-flex align-items-center gap-3">
